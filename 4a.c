@@ -30,7 +30,7 @@ void traverse(struct Node *head)
         printf("%d ", temp->info);
         temp = temp->next;
     }
-    printf("\n");
+    printf("\n")
 }
 
 void insertBeg(struct Node **head, int info)
